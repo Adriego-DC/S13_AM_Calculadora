@@ -1,0 +1,21 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme -->
+    <style name="Base.Theme.ApliMov_Calculadora" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Colores personalizados -->
+        <item name="colorPrimary">@color/purple_500</item>
+        <item name="colorPrimaryVariant">@color/purple_700</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <item name="colorSecondary">@color/teal_200</item>
+        <item name="colorOnSecondary">@color/black</item>
+
+        <!-- Personalización opcional -->
+        <item name="android:windowBackground">@color/white</item>
+        <item name="android:statusBarColor">@color/purple_700</item>
+        <item name="android:navigationBarColor">@color/purple_700</item>
+
+        <!-- Puedes agregar más configuraciones aquí -->
+    </style>
+
+    <!-- Tema principal de la aplicación -->
+    <style name="Theme.ApliMov_Calculadora" parent="Base.Theme.ApliMov_Calculadora"/>
+</resources>
