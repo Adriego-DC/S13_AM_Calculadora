@@ -44,7 +44,8 @@ Este proyecto se basa principalmente en herramientas y componentes nativos de An
 -El botón "C" borra todos los datos ingresados.
 
 
-ScreanShots de la Aplicacion Funcionando:
+🔍 ScreanShots de la Aplicacion Funcionando:
+
 
 Pantalla Main de la aplicacion de la calculadora:
 
