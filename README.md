@@ -3,32 +3,44 @@
 🔍 Descripción General
 
 ApliMov_Calculadora es una aplicación móvil desarrollada en Android Studio que permite realizar operaciones matemáticas básicas como suma, resta, multiplicación y división de forma rápida y precisa. Este proyecto fue realizado como parte de la asignatura de Aplicaciones Móviles, con el objetivo de aplicar los conocimientos adquiridos sobre desarrollo en Android utilizando el lenguaje Kotlin.
+
 La interfaz de usuario fue diseñada con enfoque en la simplicidad, accesibilidad y experiencia de usuario, considerando los lineamientos de diseño de Material Design.
 
 🧱 Estructura del Proyecto
 El proyecto sigue una estructura modular organizada por responsabilidades, facilitando la mantenibilidad y escalabilidad del código:
 
 -MainActivity.kt: Actividad principal que gestiona la lógica de la calculadora.
+
 -activity_main.xml: Diseño de la interfaz de usuario que contiene los botones numéricos y operadores.
+
 -drawable/: Recursos visuales (botones personalizados con los bordes redondeados).
+
 -values/: Archivos de configuración como colores, cadenas (strings.xml) y estilos (styles.xml).
 
 🛠️ Tecnologías y Herramientas Utilizadas
 Android Studio Electric Eel (o versión usada)
 
 -Lenguaje: Kotlin
+
 -SDK mínimo: 21 (Lollipop)
+
 -Gradle: Para la gestión del build del proyecto
+
 -Git: Para control de versiones
+
 -GitHub: Para alojar el repositorio remoto
 
 📚 Librerías Utilizadas
 Este proyecto se basa principalmente en herramientas y componentes nativos de Android, por lo que no se emplearon librerías externas. Todo el desarrollo fue realizado utilizando las clases estándar del SDK de Android y Kotlin.
 
 🔄 Funcionamiento
+
 -El usuario interactúa con los botones numéricos y operadores.
+
 -Cada pulsación es registrada y concatenada en una cadena visible en la pantalla.
+
 -Al presionar el botón "=" se evalúa la operación y se muestra el resultado.
+
 -El botón "C" borra todos los datos ingresados.
 
 
